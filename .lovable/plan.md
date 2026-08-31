@@ -1,6 +1,6 @@
 # Aman Shah — Personal Website
 
-One-page, scrollable personal academic site for Aman Shah, a 1st-year CS PhD student at NYU working in usable privacy & security. Built on the **Editorial Noir** design direction you picked.
+One-page, scrollable personal academic site for Aman Shah, a 1st-year CS PhD student at NYU working in usable security & privacy. Built on the **Editorial Noir** design direction you picked.
 
 ## Design direction: Editorial Noir
 
