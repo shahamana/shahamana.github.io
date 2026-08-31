@@ -4,7 +4,7 @@ One-page, scrollable personal academic site for Aman Shah, a 1st-year CS PhD stu
 
 ## Design direction: Editorial Noir
 
-- **Palette:** warm off-white paper (`hsl(0 0% 98%)`), near-black ink (`hsl(0 0% 8%)`), muted gray (`hsl(0 0% 42%)`), a single bold orange-red accent (`hsl(12 92% 52%)`), and a subtle line color for dividers.
+- **Palette:** dark reddish-purple background (`hsl(340 28% 16%)`), khaki text (`hsl(45 38% 72%)`), muted khaki (`hsl(45 20% 55%)`), a warm amber accent (`hsl(40 85% 62%)`), and a subtle plum-tinted line color for dividers.
 - **Type:** Fraunces (display serif, with italic emphasis) for headings + name; Archivo for body; JetBrains Mono for labels, dates, and nav. Loaded via Google Fonts `<link>` in the root route head.
 - **Feel:** zine/editorial — oversized name type, section letters `(a) (b) (c) (d)`, mono micro-labels, thin rules, generous vertical rhythm, restrained motion (a quiet fade-up on sections).
 - **Tokens:** carry these values into `src/styles.css` as semantic tokens (background, foreground, muted, accent, line) so components use tokens, not hardcoded hex.
