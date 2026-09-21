@@ -32,7 +32,7 @@ function Index() {
       <nav className="sticky top-0 z-30 border-b border-line bg-background/95 backdrop-blur-sm">
         <div className="mx-auto max-w-[80rem] px-6 py-3 flex items-center justify-between">
           <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-foreground">
-            A<span className="text-accent">.</span>Shah
+            Aman<span className="text-accent"> </span>Shah
           </span>
           <div className="flex items-center gap-6 font-mono text-[11px] uppercase tracking-[0.15em] text-muted">
             <a href="#work" className="hidden sm:inline hover:text-accent transition-colors">
@@ -40,9 +40,6 @@ function Index() {
             </a>
             <a href="#awards" className="hidden sm:inline hover:text-accent transition-colors">
               Awards
-            </a>
-            <a href="#projects" className="hidden sm:inline hover:text-accent transition-colors">
-              Projects
             </a>
             <a href="#contact" className="text-foreground hover:text-accent transition-colors">
               Contact
@@ -65,22 +62,23 @@ function Index() {
                 <span className="italic">Shah</span>
               </h1>
               <p className="mt-8 max-w-[52ch] text-pretty text-lg text-foreground/80 leading-relaxed">
-                I design and study security tools for people who are told they should be more careful
-                with their own lives. Right now I'm a first-year PhD student at NYU, working on
-                dating-app safety and online harm for vulnerable populations.
+                Hey! I'm Aman, a 1st-year PhD student in CS at NYU, co-advised by Rosie Bellini and Damon McCoy.
+                I graduated with a BS in Computer Science and Cognitive + Brain Science from Tufts. 
+                My work focuses on mitigating harm online, particularly in intimate spaces. Feel free to reach
+                out to chat, about research or anything else!
               </p>
               <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 font-mono text-xs uppercase tracking-[0.12em]">
-                <a href="mailto:aman@nyu.edu" className="text-accent hover:opacity-70 transition-opacity">
-                  aman@nyu.edu
+                <a href="mailto:aman.s@nyu.edu" className="text-accent hover:opacity-70 transition-opacity">
+                  aman.s@nyu.edu
                 </a>
-                <a href="#" className="text-foreground hover:text-accent transition-colors">
+                <a href="https://scholar.google.com/citations?user=YoaBSNAAAAAJ&hl=en" className="text-foreground hover:text-accent transition-colors">
                   Google Scholar
                 </a>
-                <a href="#" className="text-foreground hover:text-accent transition-colors">
+                <a href="https://github.com/shahamana/" className="text-foreground hover:text-accent transition-colors">
                   GitHub
                 </a>
-                <a href="#" className="text-foreground hover:text-accent transition-colors">
-                  Bluesky
+                <a href="https://www.linkedin.com/in/aman-shah-2062/" className="text-foreground hover:text-accent transition-colors">
+                  Linkedin
                 </a>
               </div>
             </div>
@@ -92,9 +90,6 @@ function Index() {
                 height={1280}
                 className="w-full aspect-[4/5] object-cover outline-1 -outline-offset-1 outline-black/10"
               />
-              <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.15em] text-muted">
-                Fig. 01 — self, 2026
-              </p>
             </div>
           </div>
         </div>
@@ -105,28 +100,41 @@ function Index() {
         <section id="work" className="border-b border-line py-20">
           <div className="flex items-baseline justify-between border-b border-foreground pb-4 mb-2">
             <h2 className="font-display text-3xl font-medium tracking-tight text-foreground text-balance">
-              Selected publications
+              Publications + Posters
             </h2>
             <span className="font-mono text-xs uppercase tracking-[0.2em] text-muted">(a)</span>
           </div>
           <ol className="mt-4">
             <li className="group grid grid-cols-12 gap-x-6 items-baseline py-6 border-b border-line fade-up">
+              <span className="col-span-2 md:col-span-1 font-mono text-sm text-accent">00</span>
+              <div className="col-span-10 md:col-span-11">
+                <h3 className="font-display text-2xl font-medium leading-snug tracking-tight text-foreground group-hover:text-accent transition-colors">
+                  Operationalizing Welcoming in Cybersecurity Communities: How Organizers Try to Shape Culture
+                </h3>
+                <p className="mt-1 font-mono text-xs uppercase tracking-[0.1em] text-muted">
+                  Carson Powers, <strong>Aman Shah</strong>, Jaron Mink, Daniel Votipka, Ari Schlesinger —{" "}
+                  <span className="text-foreground">IEEE S&P 2027</span>
+                </p>
+                <div className="mt-2 flex gap-5 font-mono text-xs uppercase tracking-[0.1em]">
+                  <a href="" className="text-foreground hover:text-accent transition-colors">
+                    Upcoming Paper
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li className="group grid grid-cols-12 gap-x-6 items-baseline py-6 border-b border-line fade-up">
               <span className="col-span-2 md:col-span-1 font-mono text-sm text-accent">01</span>
               <div className="col-span-10 md:col-span-11">
                 <h3 className="font-display text-2xl font-medium leading-snug tracking-tight text-foreground group-hover:text-accent transition-colors">
-                  You Can't Be Both: Tension Between Safety and Autonomy in Dating-App Reporting
-                  Flows
+                  Safety Perceptions and Behaviors of Young Adults who use Dating Apps
                 </h3>
                 <p className="mt-1 font-mono text-xs uppercase tracking-[0.1em] text-muted">
-                  A. Shah, R. Okonkwo, M. Delgado —{" "}
+                  <strong>Aman Shah</strong>, Veronica Rivera, Daniel Votipka —{" "}
                   <span className="text-foreground">SOUPS 2026 · Best Poster</span>
                 </p>
                 <div className="mt-2 flex gap-5 font-mono text-xs uppercase tracking-[0.1em]">
-                  <a href="#" className="text-foreground hover:text-accent transition-colors">
-                    Paper
-                  </a>
-                  <a href="#" className="text-foreground hover:text-accent transition-colors">
-                    Data
+                  <a href="https://soups.page/2026/posters-files/soups2026posters-paper66-extended_abstract_paper.pdf" className="text-foreground hover:text-accent transition-colors">
+                    Poster Abstract
                   </a>
                 </div>
               </div>
@@ -138,17 +146,14 @@ function Index() {
               <span className="col-span-2 md:col-span-1 font-mono text-sm text-accent">02</span>
               <div className="col-span-10 md:col-span-11">
                 <h3 className="font-display text-2xl font-medium leading-snug tracking-tight text-foreground group-hover:text-accent transition-colors">
-                  The Harm of the Opt-In: Measuring Dark Patterns in Digital Consent for Minors
+                  Advancing Idea Management Systems with Topic Modeling: Radical Innovation Patterns in Student-Driven Industry Cases
                 </h3>
                 <p className="mt-1 font-mono text-xs uppercase tracking-[0.1em] text-muted">
-                  A. Shah, L. Ferrante — <span className="text-foreground">USENIX Security 2026</span>
+                  Serena Leka, <strong>Aman Shah</strong> — <span className="text-foreground">AICCONF 2026</span>
                 </p>
                 <div className="mt-2 flex gap-5 font-mono text-xs uppercase tracking-[0.1em]">
-                  <a href="#" className="text-foreground hover:text-accent transition-colors">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YoaBSNAAAAAJ&sortby=pubdate&citation_for_view=YoaBSNAAAAAJ:u5HHmVD_uO8C" className="text-foreground hover:text-accent transition-colors">
                     Paper
-                  </a>
-                  <a href="#" className="text-foreground hover:text-accent transition-colors">
-                    Video
                   </a>
                 </div>
               </div>
@@ -160,14 +165,32 @@ function Index() {
               <span className="col-span-2 md:col-span-1 font-mono text-sm text-accent">03</span>
               <div className="col-span-10 md:col-span-11">
                 <h3 className="font-display text-2xl font-medium leading-snug tracking-tight text-foreground group-hover:text-accent transition-colors">
-                  When the Algorithm Cares Too Much: A Field Study of Safety Nudges and
-                  Self-Reported Anxiety
+                  Neural and cognitive impacts of AI: The influence of task subjectivity on human-LLM collaboration
                 </h3>
                 <p className="mt-1 font-mono text-xs uppercase tracking-[0.1em] text-muted">
-                  A. Shah, K. Whitfield, P. Rao — <span className="text-foreground">CHI 2026</span>
+                  Matt Russell, <strong>Aman Shah</strong>, Giles Blaney, Judith Amores, Mary Czerwinsk, Rob Jacob — <span className="text-foreground">arXiv</span>
                 </p>
                 <div className="mt-2 flex gap-5 font-mono text-xs uppercase tracking-[0.1em]">
-                  <a href="#" className="text-foreground hover:text-accent transition-colors">
+                  <a href="https://arxiv.org/abs/2506.04167" className="text-foreground hover:text-accent transition-colors">
+                    Paper
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li
+              className="group grid grid-cols-12 gap-x-6 items-baseline py-6 border-b border-line fade-up"
+              style={{ animationDelay: "0.16s" }}
+            >
+              <span className="col-span-2 md:col-span-1 font-mono text-sm text-accent">04</span>
+              <div className="col-span-10 md:col-span-11">
+                <h3 className="font-display text-2xl font-medium leading-snug tracking-tight text-foreground group-hover:text-accent transition-colors">
+                  Neural Signatures Within and Between Chess Puzzle Solving and Standard Cognitive Tasks for Brain-Computer Interfaces: A Low-Cost Electroencephalography Study
+                </h3>
+                <p className="mt-1 font-mono text-xs uppercase tracking-[0.1em] text-muted">
+                  Matt Russell, Sam Youkeles, Will Xia, Kenny Zheng, <strong>Aman Shah</strong>, Rob Jacob — <span className="text-foreground">arXiv</span>
+                </p>
+                <div className="mt-2 flex gap-5 font-mono text-xs uppercase tracking-[0.1em]">
+                  <a href="https://arxiv.org/abs/2505.07592" className="text-foreground hover:text-accent transition-colors">
                     Paper
                   </a>
                 </div>
@@ -180,58 +203,45 @@ function Index() {
         <section id="awards" className="border-b border-line py-20">
           <div className="flex items-baseline justify-between border-b border-foreground pb-4 mb-2">
             <h2 className="font-display text-3xl font-medium tracking-tight text-foreground text-balance">
-              Awards & talks
+              Awards + Talks
             </h2>
             <span className="font-mono text-xs uppercase tracking-[0.2em] text-muted">(b)</span>
           </div>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-x-16">
             <ul className="border-b border-line">
               <li className="py-5 border-b border-line flex items-baseline gap-5 fade-up">
-                <span className="font-mono text-xs text-muted shrink-0">2026</span>
-                <span className="text-foreground">Best Poster Award — SOUPS 2026</span>
+                <span className="font-mono text-xs text-muted shrink-0">Aug 2026</span>
+                <span className="text-foreground">Best Poster Award - <em>SOUPS 2026</em></span>
               </li>
               <li
                 className="py-5 border-b border-line flex items-baseline gap-5 fade-up"
                 style={{ animationDelay: "0.06s" }}
               >
-                <span className="font-mono text-xs text-muted shrink-0">2026</span>
-                <span className="text-foreground">NSF Graduate Research Fellowship</span>
+                <span className="font-mono text-xs text-muted shrink-0">May 2026</span>
+                <span className="text-foreground">Summa Cum Laude - <em>Tufts University</em></span>
               </li>
               <li
                 className="py-5 flex items-baseline gap-5 fade-up"
                 style={{ animationDelay: "0.12s" }}
               >
-                <span className="font-mono text-xs text-muted shrink-0">2025</span>
-                <span className="text-foreground">Dean's List — NYU Tandon</span>
+                <span className="font-mono text-xs text-muted shrink-0">Feb 2026</span>
+                <span className="text-foreground">James Schmolze Award for Excellence in Computer Science - <em>Tufts University</em></span>
               </li>
             </ul>
             <ul className="border-b border-line">
               <li className="py-5 border-b border-line flex items-baseline gap-5 fade-up">
-                <span className="font-mono text-xs text-muted shrink-0">2026</span>
+                <span className="font-mono text-xs text-muted shrink-0">Nov 2025</span>
                 <span className="text-foreground">
-                  Invited talk — &ldquo;Designing for the Vulnerable&rdquo;, CHI 2026
+                  Guest Lecture - Intro to Computational Linguistics - <em>PSY 64 @ Tufts</em>
                 </span>
-              </li>
-              <li
-                className="py-5 border-b border-line flex items-baseline gap-5 fade-up"
-                style={{ animationDelay: "0.06s" }}
-              >
-                <span className="font-mono text-xs text-muted shrink-0">2026</span>
-                <span className="text-foreground">Panelist — Online Safety for Minors, SOUPS 2026</span>
-              </li>
-              <li
-                className="py-5 flex items-baseline gap-5 fade-up"
-                style={{ animationDelay: "0.12s" }}
-              >
-                <span className="font-mono text-xs text-muted shrink-0">2025</span>
-                <span className="text-foreground">Workshop presenter — Privacy and the Person, USENIX</span>
               </li>
             </ul>
           </div>
         </section>
 
         {/* projects */}
-        <section id="projects" className="py-20">
+        {/*<section id="projects" className="py-20">*/}
+          {/*
           <div className="flex items-baseline justify-between border-b border-foreground pb-4 mb-2">
             <h2 className="font-display text-3xl font-medium tracking-tight text-foreground text-balance">
               Other projects
@@ -280,36 +290,37 @@ function Index() {
               </p>
             </div>
           </div>
-        </section>
+          */}
+        {/*</section>*/}
       </main>
 
       {/* footer / contact */}
       <footer id="contact" className="border-t border-foreground">
         <div className="mx-auto max-w-[80rem] px-6 py-20">
-          <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted">Contact — (d)</p>
+          <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted">Contact</p>
           <a
             href="mailto:aman@nyu.edu"
             className="mt-4 inline-block font-display text-[clamp(2rem,6vw,4.5rem)] font-medium tracking-tight leading-none text-foreground hover:text-accent transition-colors text-balance"
           >
-            aman@nyu.edu
+            aman.s@nyu.edu
           </a>
           <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 font-mono text-xs uppercase tracking-[0.12em]">
-            <a href="#" className="text-foreground hover:text-accent transition-colors">
+            <a href="https://scholar.google.com/citations?user=YoaBSNAAAAAJ&hl=en" className="text-foreground hover:text-accent transition-colors">
               Google Scholar
             </a>
-            <a href="#" className="text-foreground hover:text-accent transition-colors">
+            <a href="https://github.com/shahamana/" className="text-foreground hover:text-accent transition-colors">
               GitHub
             </a>
-            <a href="#" className="text-foreground hover:text-accent transition-colors">
-              Bluesky
+            <a href="https://www.linkedin.com/in/aman-shah-2062/" className="text-foreground hover:text-accent transition-colors">
+              Linkedin
             </a>
             <a href="#" className="text-foreground hover:text-accent transition-colors">
               CV (PDF)
             </a>
           </div>
           <div className="mt-16 flex flex-col sm:flex-row justify-between gap-2 font-mono text-[11px] uppercase tracking-[0.15em] text-muted border-t border-line pt-6">
-            <span>Set in Fraunces & Archivo · printed zine spirit</span>
-            <span>© 2026 Aman Shah · New York</span>
+            <span>Designed with Loveable</span>
+            <span>© 2026 Aman Shah</span>
           </div>
         </div>
       </footer>
