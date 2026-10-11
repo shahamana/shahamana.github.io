@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import portraitImg from "../assets/portrait.jpg";
+import cvPDF from '../assets/cv.pdf?url';
 import consentImg from "../assets/project-consent.jpg";
 import darkPatternImg from "../assets/project-darkpattern.jpg";
 
@@ -79,6 +80,9 @@ function Index() {
                 </a>
                 <a href="https://www.linkedin.com/in/aman-shah-2062/" className="text-foreground hover:text-accent transition-colors">
                   Linkedin
+                </a>
+                <a href={cvPDF}  target="_blank" className="text-foreground hover:text-accent transition-colors">
+                  CV
                 </a>
               </div>
             </div>
@@ -314,8 +318,8 @@ function Index() {
             <a href="https://www.linkedin.com/in/aman-shah-2062/" className="text-foreground hover:text-accent transition-colors">
               Linkedin
             </a>
-            <a href="#" className="text-foreground hover:text-accent transition-colors">
-              CV (PDF)
+            <a href={cvPDF}  target="_blank" className="text-foreground hover:text-accent transition-colors">
+              CV
             </a>
           </div>
           <div className="mt-16 flex flex-col sm:flex-row justify-between gap-2 font-mono text-[11px] uppercase tracking-[0.15em] text-muted border-t border-line pt-6">
