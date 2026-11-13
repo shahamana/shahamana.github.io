@@ -1,8 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
 import portraitImg from "../assets/portrait.jpg";
-import cvPDF from '../assets/cv.pdf?url';
 import consentImg from "../assets/project-consent.jpg";
 import darkPatternImg from "../assets/project-darkpattern.jpg";
+
+// PDF imports
+import cvPDF from '../assets/cv.pdf?url';
+import powers27 from '../assets/operationalizing-welcoming_sp27.pdf?url';
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -120,8 +123,8 @@ function Index() {
                   <span className="text-foreground">IEEE S&P 2027</span>
                 </p>
                 <div className="mt-2 flex gap-5 font-mono text-xs uppercase tracking-[0.1em]">
-                  <a href="" className="text-foreground hover:text-accent transition-colors">
-                    Upcoming Paper
+                  <a href={powers27} className="text-foreground hover:text-accent transition-colors">
+                    Paper
                   </a>
                 </div>
               </div>
